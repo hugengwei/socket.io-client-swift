@@ -12,9 +12,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.author       = { "Erik" => "nuclear.ace@gmail.com" }
   s.ios.deployment_target = '12.0'
-  s.osx.deployment_target = '10.13'
-  s.tvos.deployment_target = '12.0'
-  s.watchos.deployment_target = '5.0'
   s.requires_arc = true
   s.source = {
     :git => "https://gitee.com/tao-le_1/socket.io-client-swift.git",
